@@ -1,4 +1,3 @@
-
 class StudentCard(
     val nim: String,
     var nama: String,
@@ -31,7 +30,7 @@ fun main() {
         prodi = "Informatika"
     )
 
-    mahasiswa.ambilSks(20)
+    mahasiswa.ambilSks(24)
 
     println(mahasiswa.ringkasan())
     println("Status: ${mahasiswa.status}")
